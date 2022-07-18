@@ -1,0 +1,156 @@
+body {
+    font-family: 'Grandstander', cursive;
+}
+
+#nav .transparent {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#nav .navbar-toggler-icon {
+    border: 5px solid black;
+    padding: 30px;
+    background-color: #f15025;
+}
+
+#nav .nav-link .nav-brand {
+    color: #f15025 !important;
+    font-style: italic;
+}
+
+#nav .navbar a:hover {
+    color: whitesmoke;
+}
+
+#header {
+    height: 100vh;
+    background: url(img/coffe-banner.jpg) fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#header .banner-center {
+    height: 100vh;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#header .text-underline {
+    width: 300px;
+    border: 3px solid #f15025;
+    margin: 0px auto 20px;
+}
+
+#header a {
+    font-size: 30px;
+    width: 300px;
+    margin: 0px auto;
+    display: inline-block;
+    border: 3px solid whitesmoke;
+    color: #f15025;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+#header a:hover {
+    color: whitesmoke;
+    background-color: #f15025;
+}
+
+#skills {
+    background-color: #ced0ce;
+}
+
+#skills .text-underline {
+    width: 150px;
+    border: 3px solid #f15025;
+    margin: 0px auto 20px;
+}
+
+#skills .fa {
+    font-size: 60px;
+    margin-bottom: 15px;
+    color: #f15025;
+}
+
+#skills a {
+    background-color: #f15025;
+    color: whitesmoke;
+    margin-bottom: 10px;
+}
+
+#about {
+    background-color: #2d3142;
+}
+
+#about .text-underline {
+    width: 150px;
+    border: 3px solid #f15025;
+    margin: 0px auto 20px;
+}
+
+#about .title {
+    margin-top: 120px;
+}
+
+#about .pic {
+    background: url(img/coffe-banner.jpg) fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    border-bottom: 600px solid transparent;
+    border-left: 100px solid #2d3142;
+}
+
+#contact-form {
+    background-color: whitesmoke;
+}
+
+#contact-form .text-underline {
+    width: 150px;
+    border: 3px solid #f15025;
+    margin: 0px auto 20px;
+}
+
+#contact-form .btn {
+    background-color: #ced0ce;
+}
+
+#contact-form .form-control {
+    font-size: 20px;
+    border-radius: 0;
+}
+
+#contact-form .btn {
+    background-color: #2d3142;
+    color: #f15025;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#contact-form .btn:hover {
+    background-color: #f15025;
+    color: #cceedd;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#footer {
+    background-color: #2d3142;
+    color: whitesmoke;
+}
+
+#footer .text-underline {
+    width: 150px;
+    border: 3px solid #f15025;
+    margin: 0px auto 20px;
+}
+
+#footer .fa {
+    font-size: 40px;
+    padding: 20px;
+    color: deepskyblue;
+}

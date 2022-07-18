@@ -1,0 +1,78 @@
+/* ============ CSS Reset =========== */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width: 900px;
+    margin: 0px auto;
+}
+
+/* ========= Logo ========= */
+.logo{
+    padding: 25px;
+    background-color: #dddddd;
+}
+
+/* ========== Navbar ======== */
+.navbar{
+    background-color: black;
+}
+
+.navbar ul li{
+    display: inline-block;
+    color: white;
+    list-style: none;
+    padding: 15px 21px;
+
+}
+
+/* ========== Menu ========== */
+.menu{
+    clear: left;
+    width: 25%;
+    float: left;
+    background-color: #dddddd;
+    margin-right: 10px;
+    
+}
+
+.menu ul li{
+    list-style: none;
+    padding: 7px 20px;
+}
+.green{
+    background-color: green;
+    color: white;
+}
+
+/* ========= Content ======== */
+.content{
+    
+    background-color: #dddddd;
+    padding: 15px;
+    float: right;
+    width: 70%;
+}
+p{
+    line-height: 1.5rem;
+}
+
+/* ========= Footer ========= */
+.footer{
+    clear: both;
+    padding: 15px;
+    background-color: black;
+    color: white;
+}
+
+
+
+/* =========== Utility Classes ========== */
+.center{
+    text-align: center;
+}
+.right{
+    float: right;
+    background-color: green;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+
+    <!-- ============ CSS File ========== -->
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+
+    <header>Made By Numan Khan. Roll No : 7628</header>
+
+    <div class="container">
+        <input type="text" id="result">
+        <div class="row">
+            <button class="diffBtn" onclick="clearResult();">C</button>
+            <button class="btn" value="%" id="%" onclick="display(id);">%</button>
+            <button class="btn" value="/" id="/" onclick="display(id);">/</button>
+        </div>
+        
+        <div class="row">
+            <button class="btn" value="7" id="7" onclick="display(id);">7</button>
+            <button class="btn" value="8" id="8" onclick="display(id);">8</button>
+            <button class="btn" value="9" id="9" onclick="display(id);">9</button>
+            <button class="btn" value="*" id="*" onclick="display(id);">*</button>
+        </div>
+        
+        <div class="row">
+            <button class="btn" value="4" id="4" onclick="display(id);">4</button>
+            <button class="btn" value="5" id="5" onclick="display(id);">5</button>
+            <button class="btn" value="6" id="6" onclick="display(id);">6</button>
+            <button class="btn" value="-" id="-" onclick="display(id);">-</button>
+        </div>
+        
+        <div class="row">
+            <button class="btn" value="1" id="1" onclick="display(id);">1</button>
+            <button class="btn" value="2" id="2" onclick="display(id);">2</button>
+            <button class="btn" value="3" id="3" onclick="display(id);">3</button>
+            <button class="btn" value="+" id="+" onclick="display(id);">+</button>
+        </div>
+
+        <div class="row">
+            <button class="btn" value="0" id="0" onclick="display(id);">0</button>
+            <button class="btn" value="." id="." onclick="display(id);">.</button>
+            <button class="diffBtn" onclick="calculate();">=</button>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <!--============ javaScript file ============ -->
+    <script src="calculator.js"></script>
+</body>
+</html>

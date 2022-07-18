@@ -1,0 +1,63 @@
+body{
+    background-color: #cfe2f7;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #cfe2f7;
+    padding: 40px 10px 10px 10px;
+    text-align: center;
+    box-shadow: 5px 5px 15px rgb(169 169 169);
+    border-radius: 10px;
+}
+
+.btn{
+    background-color: #cfe2f7;
+    color: black;
+    font-size: 20px;
+    padding: 15px;
+    margin: 3px;
+    width: 50px;
+    border-radius: 17px;
+    border: none;
+    box-shadow: 2px 2px 5px #00000052;
+}
+.btn:hover{
+    background-color: #65acfb;
+    color: white;
+    cursor: pointer;
+}
+
+
+.diffBtn{
+background-color: #65acfb;
+color: white;
+font-size: large;
+padding: 15px 30px;
+border-radius: 7px;
+border: none;
+width: 100px;
+margin: 6px;
+}
+.diffBtn:hover{
+    background-color: #3682d8;
+    cursor: pointer;
+}
+
+input{
+    font-size: 18px;
+    width: 200px;
+    padding: 10px;
+    border: 1px solid rgb(58, 58, 58);
+    margin-bottom: 5px;
+}
+
+header{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 50px;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Management System</title>
+
+    <!-- ======== style sheet ========= -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <!-- header -->
+        <div id="header">
+            <p style="color: white;">Hello, <span id="headerName">Guest!</span></p>
+        </div>
+
+        <!-- Generate Users List -->
+        <div id="genUsers" class="block">
+            <h2>Users Details</h2>
+            <p style = "margin: 18px 0px;">We've Following users available in our list:</p>
+            <div id="usersList"></div>
+        </div>
+
+        <!-- Add user Block -->
+        <div id="addUser" class="block">
+            <h2>Add User</h2>
+            <form onsubmit="return addUser()">
+                <input type="text" placeholder="Your Name" id="username">
+                <input type="email" placeholder="Your Email" id="email">
+                <input type="password" placeholder="Enter Your Password" id="password">
+                <input type="submit" value="Add User">
+            </form>
+
+        </div>
+
+        <!-- Delete User -->
+        <div id="delUser" class="block">
+            <h2>Delete User</h2>
+            <form onsubmit="return deleteUser()">
+                <input type="email" placeholder="Enter User Email" id="delEmail">
+                <input type="submit" value="Delete User">
+            </form>
+        </div>
+
+        <!-- Login -->
+        <div id="login" class="block">
+            <h2>Login</h2>
+            <form onsubmit="return login()">        
+                <input type="email" placeholder="Your Email" id="loginEmail">
+                <input type="password" placeholder="Your Password" id="loginPassword">
+                <input type="submit" value="Login">
+            </form>
+        </div>
+
+        <!-- right buttons -->
+        <div id="right">
+            <button onclick="generateList()">Generate Users List</button>
+            <button onclick="toggleScreen('addUser');">Add User</button>
+            <button onclick="toggleScreen('delUser');">Delete User</button>
+            <hr>
+            <button onclick="toggleScreen('login');">Login</button>
+        </div>
+    </div>
+
+
+    <!-- ======= JavaScript File ======= -->
+    <script src="script.js"></script>
+</body>
+
+</html>
